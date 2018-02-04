@@ -53,7 +53,7 @@ npm install -g
 ```
 The syntax to run the program is:
 ```
-liri <function> <parameter>
+node liri.js <command> <parameter>
 ```
 
 Available functions:
