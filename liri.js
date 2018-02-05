@@ -56,7 +56,7 @@ function tweets() {
 // if spotify-this-song is called...
 function spotifySong() {
     if (userInput == null) {
-        userInput = 'I Saw the Sign';
+        userInput = 'Ace of Base the Sign';
     }
         
     spotify.search({ type: 'track', query: userInput, limit: 1 }, function (err, data) {
